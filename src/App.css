@@ -14,6 +14,14 @@ body {
   margin: 0 auto;
   background-color: var(--White);
   font-family: Inter;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+body.dark {
+  background-color: var(--Black);
+  color: var(--White);
+}
+body.dark .links-header a {
+  color: var(--White);
 }
 /*HEADER DESKTOP*/
 .header-container {
@@ -47,7 +55,38 @@ body {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+.theme-toggle img{
+  transition: filter 0.3s ease;
 }
 .hamburger-menu {
   display: none;
+}
+
+/**/
+
+.nav-link {
+  position: relative;
+  color: var(--Black);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+  padding-bottom: 2px;
+  transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #000000; /* istediğin hover çizgi rengi */
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
 }
