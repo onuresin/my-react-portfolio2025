@@ -7,13 +7,19 @@ import { useEffect, useState } from "react";
 export default function Header () {
     const [darkMode, setDarkMode] = useState(false);
     useEffect(() => {
-        const isDark = document.body.classList.contains("dark");
+        const savedTheme = localStorage.getItem("theme");
+        const isDark = savedTheme === "dark";
         setDarkMode(isDark);
-    }, []);
+        document.body.classList.toggle("dark",isDark)
+    },[]);
+
     const toggleTheme = () => {
-        document.body.classList.toggle("dark");
-        setDarkMode(prev => !prev);
+        const newDarkMode = !darkMode;
+        setDarkMode(newDarkMode);
+        document.body.classList.toggle("dark", newDarkMode);
+        localStorage.setItem("theme", newDarkMode ? "dark" : "light");
     };
+    
     return (
         <div className="header-container">
             <div className="inner-Header">
