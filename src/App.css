@@ -9,3 +9,45 @@
   --Black: #000;
   --White: #FFF;
 }
+body {
+  width: 1440px;
+  margin: 0 auto;
+  background-color: var(--White);
+  font-family: Inter;
+}
+/*HEADER DESKTOP*/
+.header-container {
+  width: 100%;
+}
+.inner-Header {
+  width: 74%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 46.5px;
+  margin-bottom: 47.5px;
+  padding: 6.5px 12px;
+}
+.links-header {
+  width: 24.22%;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+
+}
+.links-header button {
+  background-color: transparent;
+  border: none;
+}
+.links-header a {
+  text-decoration: none;
+  color: var(--Black);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.hamburger-menu {
+  display: none;
+}
