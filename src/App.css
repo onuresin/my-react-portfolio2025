@@ -9,6 +9,7 @@
   --Black: #000;
   --White: #FFF;
   --HalfBlack: #111;
+  --Black05: #1A1A1A;
 }
 body {
   width: 1440px;
@@ -96,3 +97,151 @@ body.dark .links-header a {
 
 
 /*HERO SECTION*/
+.hero-container {
+  width: 100%;
+}
+.hero-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  width: 74%;
+  margin: 0 auto;
+  padding-inline: 12px;
+}
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+.info-1 h5{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  color: var(--Black05) ;
+}
+.info-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.info-2 h3 {
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 500;
+  background: linear-gradient(90deg, #9845E8 -1.72%, #33D2FF 54.05%, #DD5789 99.78%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.info-2 p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px; /* 133.333% */
+  color: var(--Black05);
+}
+.hero-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: start;
+}
+.hero-links a {
+  display: flex;
+  align-items: center;
+  padding: 16px 26px;
+  gap: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px; /* 150% */
+  color: var(--Black05);
+  justify-content: first baseline;
+}
+/*Animasyonlu Butonlar*/
+@keyframes borderMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+.mailSend {
+  position: relative;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  /* Hem içi beyaz hem border gradient */
+  background: 
+    linear-gradient(white, white) padding-box,
+    linear-gradient(51deg, #9358F7 0.87%, #9259F7 7.31%, #8E5DF6 13.75%, #8862F5 20.19%, #806BF4 26.63%, #7575F2 33.07%, #6882F0 39.51%, #5990EE 45.95%, #4A9FEB 52.39%, #3BADE9 58.84%, #2EBAE7 65.28%, #23C4E5 71.72%, #1BCDE4 78.16%, #15D2E3 84.6%, #11D6E2 91.04%, #10D7E2 97.48%) border-box;
+    background-size: 200% 200%;
+    background-position: 0% 50%;
+    animation: borderMove 2.5s linear infinite;
+    transition: box-shadow 0.4s, border-color 0.3s;
+    box-shadow: 0 0 0px 0px transparent;
+}
+
+.mailSend:hover {
+  background-position: 100% 50%;  /* Hover'da sağa kayacak */
+  box-shadow: 0 0 16px 2px #6964DE;
+  border-color: #8ffff9;
+}
+.linkedIn {
+  position: relative;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  /* Hem içi beyaz hem border gradient */
+  background: 
+    linear-gradient(white, white) padding-box,
+    linear-gradient(135deg, #6964DE 2.88%, #FCA6E9 100%) border-box;
+    background-size: 200% 200%;
+    background-position: 0% 50%;
+    animation: borderMove 2.5s linear infinite;
+    transition: box-shadow 0.4s, border-color 0.3s;
+    box-shadow: 0 0 0px 0px transparent; 
+}
+.linkedIn:hover {
+  background-position: 100% 50%;  /* Hover'da sağa kayacak */
+  box-shadow: 0 0 16px 2px #6964DE;
+  border-color: #f5b4e7;
+}
+.up-work {
+  position: relative;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  /* Hem içi beyaz hem border gradient */
+  background: 
+    linear-gradient(white, white) padding-box,
+    linear-gradient(45deg, #F4426C 6.41%, #FBF2B1 98.99%) border-box;
+    background-size: 200% 200%;
+    background-position: 0% 50%;
+    animation: borderMove 2.5s linear infinite;
+    transition: box-shadow 0.4s, border-color 0.3s;
+    box-shadow: 0 0 0px 0px transparent;
+}
+.up-work:hover {
+  background-position: 100% 50%;  /* Hover'da sağa kayacak */
+  box-shadow: 0 0 16px 2px #6964DE;
+  border-color: #F4426C;
+}
+.gitHub {
+  position: relative;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  /* Hem içi beyaz hem border gradient */
+  background: 
+    linear-gradient(white, white) padding-box,
+    linear-gradient(132deg, #D24074 -0.67%, #6518B4 102.54%) border-box;
+    background-size: 200% 200%;
+    background-position: 0% 50%;
+    animation: borderMove 2.5s linear infinite;
+    transition: box-shadow 0.4s, border-color 0.3s;
+    box-shadow: 0 0 0px 0px transparent;
+}
+.gitHub:hover {
+  background-position: 100% 50%;  /* Hover'da sağa kayacak */
+  box-shadow: 0 0 16px 2px #6964DE;
+  border-color: #0826866c;
+}

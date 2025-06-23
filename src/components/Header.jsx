@@ -30,6 +30,7 @@ export default function Header () {
                     <a href="#" className="nav-link" id="projects"> Projeler</a>
                     <a href="#" className="nav-link" id="resume">CV</a>
                     <a href="#" className="nav-link" id="contact">İletişim</a>
+                    <button className="lang-button">EN</button>
                     <button className="theme-toggle" onClick={toggleTheme}>
                         <img src={darkMode ? sunIconWhite : sunIconBlack} alt="tema değiştir"/>
                     </button>
