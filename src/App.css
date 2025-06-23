@@ -8,6 +8,7 @@
   --Purple: #7663E8;
   --Black: #000;
   --White: #FFF;
+  --HalfBlack: #111;
 }
 body {
   width: 1440px;
@@ -23,6 +24,7 @@ body.dark {
 body.dark .links-header a {
   color: var(--White);
 }
+
 /*HEADER DESKTOP*/
 .header-container {
   width: 100%;
@@ -90,3 +92,7 @@ body.dark .links-header a {
 .nav-link:hover::after {
   width: 100%;
 }
+
+
+
+/*HERO SECTION*/
