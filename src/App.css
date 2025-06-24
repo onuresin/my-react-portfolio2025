@@ -12,11 +12,14 @@
   --Black05: #1A1A1A;
 }
 body {
-  width: 1440px;
-  margin: 0 auto;
   background-color: var(--White);
   font-family: Inter;
   transition: background-color 0.4s ease, color 0.4s ease;
+}
+.main-container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 body.dark {
   background-color: var(--Black);
@@ -32,6 +35,7 @@ body.dark .links-header a {
 }
 .inner-Header {
   width: 74%;
+  max-width: 1100px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -39,13 +43,12 @@ body.dark .links-header a {
   margin-top: 46.5px;
   margin-bottom: 47.5px;
   padding: 6.5px 12px;
+  transition: width 0.3s;
 }
 .links-header {
-  width: 24.22%;
   display: flex;
   gap: 30px;
   align-items: center;
-
 }
 .links-header button {
   background-color: transparent;
