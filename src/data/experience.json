@@ -1,0 +1,62 @@
+[
+  {
+    "company": "Asav Uluslararası Nakliyat",
+    "location": "İstanbul",
+    "position": "Hava İhracat Satış Temsilcisi",
+    "date": "2016",
+    "details": [
+      "Developing screens and UI components...",
+      "Fixing UI issues..."
+    ]
+  },
+  {
+    "company": "Vodafone VDF İletişim",
+    "location": "Tekirdağ",
+    "position": "Saha Satış Temsilcisi",
+    "date": "02.2017 - 12.2017",
+    "details": [
+      "Developing screens and UI components...",
+      "Fixing UI issues..."
+    ]
+  }
+  ,
+{
+    "company": "Selfbook",
+     "location": "Tekirdağ",
+    "position": "Saha Satış Temsilcisi",
+    "date": "05.2018 - 08.2018",
+    "details": [
+      "Developing screens and UI components...",
+      "Fixing UI issues..."
+    ]
+  },
+  {
+    "company": "Bilim İlaç",
+    "location": "İstanbul",
+    "position": "İlaç Mümmesili",
+    "date": "2021",
+    "details": [
+      "Developing screens and UI components...",
+      "Fixing UI issues..."
+    ]
+  },
+  {
+    "company": "Esmart Ambalaj Dış Tic. A.Ş.",
+    "location": "Tekirdağ",
+    "position": "Fabrika Üretim Sorumlusu",
+    "date": "2022 - 2023",
+    "details": [
+      "Developing screens and UI components...",
+      "Fixing UI issues..."
+    ]
+  },{
+    "company": "Aka Koleji",
+    "location": "Tekirdağ",
+    "position": "Bilgi İşlem Sorumlusu",
+    "date": "2024 - günümüz",
+    "details": [
+      "Developing screens and UI components...",
+      "Fixing UI issues..."
+    ]
+  }
+]

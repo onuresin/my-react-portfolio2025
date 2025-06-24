@@ -7,7 +7,7 @@
   --Black05: #1A1A1A;
 }
 body.dark {
-  background-color: var(--Black);
+  background-color: var(--HalfBlack);
   color: var(--White);
 }
 body.dark .links-header a {
