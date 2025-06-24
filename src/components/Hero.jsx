@@ -2,6 +2,7 @@ import SendMailBlack from "../assets/send-mail-black.svg";
 import LinkedInBlack from "../assets/linkedIn-black.svg";
 import UpWorkBlack from "../assets/upwork-black.svg";
 import GitHubBlack from "../assets/github-black.svg";
+import '../assets/darkMode.css';
 
 export default function Hero () {
     return (

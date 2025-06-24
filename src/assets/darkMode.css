@@ -1,0 +1,77 @@
+/*GECE MODU */
+:root {
+  --Purple: #7663E8;
+  --Black: #000;
+  --White: #FFF;
+  --HalfBlack: #111;
+  --Black05: #1A1A1A;
+}
+body.dark {
+  background-color: var(--Black);
+  color: var(--White);
+}
+body.dark .links-header a {
+  color: var(--White);
+}
+body.dark .logo-svg {
+ color: var(--White);
+}
+body.dark .info-1 h5{
+    color: var(--White);
+}
+body.dark .info-2 p{
+    color: var(--White);
+}
+
+body.dark .hero-links img {
+  filter: invert(1);
+}
+body.dark .lang-button {
+  filter: invert(1);
+}
+body.dark .hero-links a {
+  color: #fff; /* Yazılar için */
+}
+body.dark .mailSend {
+  background: linear-gradient(#111, #111) padding-box,
+    linear-gradient(51deg, #9358F7 0.87%, #9259F7 7.31%, #8E5DF6 13.75%, #8862F5 20.19%, #806BF4 26.63%, #7575F2 33.07%, #6882F0 39.51%, #5990EE 45.95%, #4A9FEB 52.39%, #3BADE9 58.84%, #2EBAE7 65.28%, #23C4E5 71.72%, #1BCDE4 78.16%, #15D2E3 84.6%, #11D6E2 91.04%, #10D7E2 97.48%) border-box;
+}
+body.dark .linkedIn {
+  background: linear-gradient(#111, #111) padding-box,
+    linear-gradient(135deg,#2867b2 2.88%,#378fe9 11%,#43c6f9 19%,#6eb9f7 27%,#b7c9f7 35%,#fca6e9 45%,#e8c3fd 54%,#96c8fb 63%,#49a0e3 73%,#2867b2 91%,#fca6e9 100%) border-box;
+}
+body.dark .up-work {
+  background: linear-gradient(#111, #111) padding-box,
+    linear-gradient(45deg, #1CED81 6%, #10D7E2 19%, #FFDD67 37%, #F4426C 54%, #FD6F21 70%, #35E995 84%, #1CED81 100%) border-box;
+}
+body.dark .gitHub {
+  background: linear-gradient(#111, #111) padding-box,
+    linear-gradient(132deg, #6e44ff 0%, #b892ff 14%, #b892ff 30%, #ffc2e2 44%, #171321 58%, #49108b 73%, #b892ff 88%, #212121 100%) border-box;
+}
+body.dark .mailSend,
+body.dark .linkedIn,
+body.dark .up-work,
+body.dark .gitHub {
+  background-size: 200% 200%;
+  background-position: 0% 50%;
+  animation: borderMove 8s linear infinite;
+  transition: box-shadow 0.3s, border-color 0.3s;
+}
+body.dark .hero-links a {
+  color: #fff;
+}
+/*NAV LINKS*/
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: var(--White); /* istediğin hover çizgi rengi */
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}

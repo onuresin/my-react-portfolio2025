@@ -2,6 +2,7 @@ import Logo from "./Logo";
 import sunIconBlack from "../assets/sun-fill-blck.svg";
 import sunIconWhite from "../assets/sun-fill-white.svg";
 import { useEffect, useState } from "react";
+import '../assets/darkMode.css';
 
 
 export default function Header () {
@@ -24,7 +25,7 @@ export default function Header () {
         <div className="header-container">
             <div className="inner-Header">
                 <div className="logo-header">
-                    <Logo />
+                    <a href="www.onuresin.net"><Logo /></a>
                 </div>
                 <div className="links-header">
                     <a href="#" className="nav-link" id="projects"> Projeler</a>
