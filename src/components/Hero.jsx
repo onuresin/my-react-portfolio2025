@@ -13,7 +13,7 @@ export default function Hero () {
                         <h5>Merhaba, ben</h5>
                     </div>
                     <div className="info-2">
-                        <h3>Onur ESİN</h3>
+                        <h3>Onur Esin</h3>
                         <p>
                             Lisans eğitimimi Balıkesir Üniversitesi'nde İktisat bölümünü okuyarak tamamladım. İş hayatına dış ticaret sektöründe hava ihracat departmanında çalışarak başladım. Devamında pazarlama sektörüne yöneldim. 2017-2023 yılları arasında bu sektörde edindiğim tecrübelerle birlikte kariyerimin farklı bir çizgide ilerlemesini istedim. Acun Medya Akademi'de ‘Gelişmiş Yazılım Uzmanlığı’ eğitimini aldım. Bu eğitimle birlikte HTML, CSS, Javascript ve React konularında güçlü bilgi ve beceri kazandım. Öğrenmeye olan tutkum, analitik düşünme yeteneğim, problem çözme kapasitem, ekip çalışmasına yatkınlığım ve yüksek iletişim becerilerimle kariyerime Frontend Developer olarak yeni bir sayfa açmayı ve yeni tecrübeler edinmeyi amaçlıyorum. Şuan Aka Koleji çatısı altında IT bölümünde çalışıyorum.
                         </p>

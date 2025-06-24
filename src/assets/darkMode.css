@@ -75,3 +75,21 @@ body.dark .hero-links a {
 .nav-link:hover::after {
   width: 100%;
 }
+body.dark .experience-container {
+  background-color: var(--HalfBlack);
+  transition: width 0.3s;
+}
+body.dark .company-btn {
+  background-color: var(--HalfBlack);
+  color: var(--White);
+}
+body.dark .company-btn.active {
+  background-color: var(--Black);
+  color: var(--White);
+}
+body.dark .detail-top h3 {
+  color: var(--White);
+}
+body.dark .detail-bot ul{
+  color: var(--White);
+}
