@@ -93,3 +93,6 @@ body.dark .detail-top h3 {
 body.dark .detail-bot ul{
   color: var(--White);
 }
+body.dark .experience-stick {
+  background-color: var(--White);
+}

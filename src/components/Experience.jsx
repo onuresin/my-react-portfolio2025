@@ -38,6 +38,9 @@ export default function Experience() {
                     </div>
                 </div>
             </div>
+            <div className="experience-stick">
+                
+            </div>
         </section>
     )
 }
