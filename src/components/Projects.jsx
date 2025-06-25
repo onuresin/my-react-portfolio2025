@@ -33,8 +33,6 @@ const projectCategories = [
         demo: "/projects/memorygame/index.html",
         github: "https://github.com/onuresin/memorygame"
       },
-      
-      // ... Diğer kişisel projeler
     ]
   },
   {
@@ -47,7 +45,6 @@ const projectCategories = [
         demo: "/projects/client1/index.html",
         github: ""
       },
-      // ... Diğer ücretli projeler
     ]
   }
 ];
