@@ -11,6 +11,7 @@
   --HalfBlack: #111;
   --Black05: #1A1A1A;
   --Purple: #1F26B7;
+  --BabyBlue: #6CACE4;
 }
 body {
   background-color: var(--White);
@@ -387,30 +388,33 @@ body {
 .projects-container {
   width: 74%;
   max-width: 1100px;
-  margin: 60px auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
 }
 .projects-tabs {
   display: flex;
-  gap: 24px;
-  margin-bottom: 36px;
+  gap: 55px;
   justify-content: flex-start;
 }
 .tab-btn {
   background: none;
   border: none;
-  font-size: 20px;
-  font-weight: 400;
-  color: #222;
-  padding: 12px 32px;
+  color: var(--Black05);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: normal;
   border-radius: 12px 12px 0 0;
   cursor: pointer;
-  transition: background 0.24s, color 0.22s;
 }
 .tab-btn.active {
-  background: #fff;
-  color: #6d28d9;
-  font-weight: bold;
-  box-shadow: 0 4px 18px 0 rgba(31,38,135,0.10);
+  color: var(--Purple);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: normal;
+  
 }
 .projects-grid {
   display: grid;
@@ -418,8 +422,6 @@ body {
   gap: 28px;
 }
 .project-card {
-  background: rgba(255,255,255,0.20);
-  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.11);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-radius: 18px;
@@ -428,6 +430,7 @@ body {
   transition: box-shadow 0.22s, transform 0.22s;
   display: flex;
   flex-direction: column;
+  gap: 30px;
   align-items: flex-start;
 }
 .project-card:hover {
@@ -440,19 +443,39 @@ body {
   border-radius: 12px;
   margin-bottom: 10px;
 }
+.project-card h4 {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: normal;
+}
+.project-card p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px; /* 171.429% */
+  color: var(--Black05);
+}
+.project-card h5 {
+  font-size: 14px;
+  color: var(--BabyBlue);
+  font-weight: 300;
+  line-height: 24px;
+}
+
 .project-links {
   margin-top: auto;
   display: flex;
-  gap: 16px;
+  gap: 25px;
 }
 .project-links a {
+  display: flex;
+  gap: 10px;
   font-size: 16px;
   font-weight: 500;
   color: #222;
-  text-decoration: underline;
+  text-decoration: none;
 }
-body.dark .project-card {
-  background: rgba(20,20,22,0.26);
-  border: 1px solid rgba(200,200,200,0.09);
+.project-links a img {
+  width: 18px;
 }
+
 

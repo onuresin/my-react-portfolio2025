@@ -1,5 +1,6 @@
 import { useState } from "react";
-
+import Attachment from "../assets/attachment.svg";
+import GitHubBlack from "../assets/github-black.svg";
 // 1. Örnek veri
 const projectCategories = [
   {
@@ -22,7 +23,7 @@ const projectCategories = [
         github: "https://github.com/onuresin/memorygame"
       },
       {
-        title: "İngilizce Sözcüp Uygulaması",
+        title: "İngilizce Sözlük",
         img: "/myProjects/dictionary.png",
         desc: "İngilizce kelimelerin okunuşlarını ve yazılışlarını öğreten uygulama.",
         tech: "React - Responsive",
@@ -72,7 +73,7 @@ const projectCategories = [
       {
         title: "VKE Hesaplama",
         img: "/myProjects/BMI_Calculate.png",
-        desc: "Bu projede react kullanılarak emojilerle hafıza oyunu kodlandı. Her oyun sonunda yeniden başlattığınızda farklı emojiler, farklı sırada olacak şekilde oynayabilirsiniz.",
+        desc: "Vücut kitle indeksinizi hesaplayabileceğiniz bir araç.",
         tech: "React - Responsive",
         demo: "/projects/memorygame/index.html",
         github: "https://github.com/onuresin/memorygame"
@@ -122,12 +123,12 @@ export default function Projects() {
             <div className="project-links">
               {proj.demo && (
                 <a href={proj.demo} target="_blank" rel="noopener noreferrer">
-                  Live Demo
+                  <img src={Attachment} alt="Attachment" />Live Demo
                 </a>
               )}
               {proj.github && (
                 <a href={proj.github} target="_blank" rel="noopener noreferrer">
-                  GitHub
+                  <img src={GitHubBlack} alt="" />
                 </a>
               )}
             </div>
