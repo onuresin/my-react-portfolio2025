@@ -107,3 +107,6 @@ body.dark .load-more-button:hover {
     box-shadow: 0 18px 45px 0 var(--Purple);
     color: var(--Purple);
 }
+body.dark .footer-inner {
+  filter: invert(1);
+}
