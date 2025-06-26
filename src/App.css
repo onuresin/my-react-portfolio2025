@@ -6,12 +6,14 @@
 }
 :root {
   --Purple: #7663E8;
+  --DeepPurple: #382a8b;
   --Black: #000;
   --White: #FFF;
   --HalfBlack: #111;
   --Black05: #1A1A1A;
   --Purple: #1F26B7;
   --BabyBlue: #6CACE4;
+  --LavaRed: #d40707;
 }
 html {
   scroll-behavior: smooth;
@@ -191,7 +193,7 @@ body {
   0% { background-position: 0% 50%; }
   100% { background-position: 100% 50%; }
 }
-.mailSend {
+.linkedIn {
   position: relative;
   border: 2px solid transparent;
   border-radius: 10px;
@@ -206,12 +208,12 @@ body {
     box-shadow: 0 0 0px 0px transparent;
 }
 
-.mailSend:hover {
+.linkedIn:hover {
   background-position: 100% 50%;  /* Hover'da sağa kayacak */
   box-shadow: 0 0 16px 2px #6e44ff;
   border-color: #8ffff9;
 }
-.linkedIn {
+.up-work {
   position: relative;
   border: 2px solid transparent;
   border-radius: 10px;
@@ -225,28 +227,10 @@ body {
     transition: box-shadow 0.4s, border-color 0.3s;
     box-shadow: 0 0 0px 0px transparent; 
 }
-.linkedIn:hover {
+.up-work:hover {
   background-position: 100% 50%;  /* Hover'da sağa kayacak */
   box-shadow: 0 0 16px 2px #6e44ff;
   border-color: #f5b4e7;
-}
-.up-work {
-  position: relative;
-  border: 2px solid transparent;
-  border-radius: 10px;
-  background:
-   linear-gradient(white, white) padding-box, 
-   linear-gradient(45deg, #1CED81 6%, #10D7E2 19%, #FFDD67 37%, #F4426C 54%, #FD6F21 70%, #35E995 84%, #1CED81 100%) border-box;
-  background-size: 200% 200%;
-  background-position: 0% 50%;
-  animation: borderMove 4s linear infinite;
-  transition: box-shadow 0.4s, border-color 0.3s;
-  box-shadow: 0 0 0px 0px transparent;
-}
-.up-work:hover {
-  background-position: 100% 50%;
-  box-shadow: 0 0 16px 2px #6e44ff;
-  border-color: #F4426C;
 }
 .gitHub {
   position: relative;
@@ -554,4 +538,83 @@ footer {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+/*CONTACT MODAL CSS*/
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.38);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1002;
+}
+
+.modal-glass {
+  background: rgba(255,255,255,0.38);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.22);
+  padding: 36px 32px 32px 32px;
+  min-width: 340px;
+  max-width: 420px;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 18px; right: 18px;
+  font-size: 22px;
+  background: none;
+  border: none;
+  color: var(--Black05);
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.close-btn:hover {
+  color: var(--LavaRed);
+}
+
+.form-send-btn {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
+  border: none;
+  background: var(--Purple);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 14px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.form-send-btn:hover {
+  background-color: var(--DeepPurple);
+}
+.form-send-btn:disabled {
+  background: #aaa;
+  cursor: wait;
+}
+.form-success {
+  color: var(--DeepPurple);
+  font-size: 20px;
+  text-align: center;
+  padding: 32px 0;
+}
+form label {
+  display: block;
+  margin: 14px 0 4px 0;
+  font-weight: 500;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 7px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  margin-bottom: 7px;
+  background: rgba(255,255,255,0.77);
+  resize: vertical;
 }

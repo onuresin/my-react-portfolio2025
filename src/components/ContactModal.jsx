@@ -30,7 +30,7 @@ export default function ContactModal({ open, onClose }) {
       <div className="modal-glass" onClick={e => e.stopPropagation()}>
         <button className="close-btn" onClick={onClose}>✕</button>
         {sent ? (
-          <div className="form-success">Teşekkürler! Mesajın ulaştı. 🎉</div>
+          <div className="form-success">Mesajınız tarafıma başarı ile ulaşmıştır. En kısa sürede dönüş yapacağım ☺️</div>
         ) : (
           <form onSubmit={handleSubmit}>
             <h2>İletişim</h2>

@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import '../assets/darkMode.css';
 
 
-export default function Header () {
+export default function Header ({ onContactClick }) {
     const [darkMode, setDarkMode] = useState(false);
     useEffect(() => {
         const savedTheme = localStorage.getItem("theme");
@@ -30,7 +30,7 @@ export default function Header () {
                 <div className="links-header">
                     <a href="#projects-page" className="nav-link" id="projects"> Projeler</a>
                     <a href="/cv/onuresincv.pdf" download className="nav-link" id="resume">CV</a>
-                    <a href="#" className="nav-link" id="contact">İletişim</a>
+                    <a  href="#" onClick={(e) => {e.preventDefault();onContactClick();}} className="nav-link" id="contact">İletişim</a>
                     <button className="lang-button">EN</button>
                     <button className="theme-toggle" onClick={toggleTheme}>
                         <img src={darkMode ? sunIconWhite : sunIconBlack} alt="tema değiştir"/>
