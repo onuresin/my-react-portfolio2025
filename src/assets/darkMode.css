@@ -103,9 +103,9 @@ body.dark .project-links {
   filter: invert(1);
 }
 body.dark .load-more-button:hover {
-    background: var(--White);
-    box-shadow: 0 18px 45px 0 var(--Purple);
-    color: var(--Purple);
+     background: var(--White);
+  box-shadow: 0 5px 48px 0 var(--Purple);
+  color: var(--Purple);
 }
 body.dark .footer-inner {
   filter: invert(1);

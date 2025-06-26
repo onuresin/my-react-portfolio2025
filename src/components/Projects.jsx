@@ -79,7 +79,7 @@ const projectCategories = [
         github: "https://github.com/onuresin/bmi-calculator.responsive-REACT"
       },
     ]
-  },
+  },// Gelişim Projeleri
   {
     name: "Ücretli Projeler",
     projects: [
@@ -91,7 +91,7 @@ const projectCategories = [
         github: ""
       },
     ]
-  }
+  } // Prof projeler
 ];
 const PROJECTS_PER_PAGE = 6;
 
@@ -177,8 +177,6 @@ return (
           </button>
         </div>
       )}
-
-      <div className="experience-stick"></div>
     </section>
   );
 }

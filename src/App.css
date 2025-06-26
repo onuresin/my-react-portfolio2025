@@ -433,7 +433,6 @@ body {
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-radius: 18px;
-  border: 1px solid rgba(255,255,255,0.21);
   padding: 28px 22px 26px 22px;
   transition: box-shadow 0.22s, transform 0.22s;
   display: flex;
@@ -505,7 +504,7 @@ body {
   border: none;
   border-radius: 16px;
   background: var(--Purple);
-  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.11);
+  box-shadow: 0 0 32px 0 rgba(31,38,135,0.11);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   color: var(--White);
@@ -515,13 +514,15 @@ body {
 }
 .load-more-button:hover {
   background: rgba(255,255,255,0.35);
-  box-shadow: 0 18px 48px 0 var(--Purple);
+  box-shadow: 0 5px 48px 0 var(--Purple);
   color: var(--Purple);
 }
 
 /*FOOTER SECTION DESKTOP*/
 footer {
   width: 100%;
+  margin-top: 30px;
+  border-top: 1px solid var(--Black05);
 }
 .footer-inner {
   width: 74%;
