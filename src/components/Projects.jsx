@@ -20,7 +20,7 @@ const projectCategories = [
         desc: "Kendi geliştirdiğim klasik hafıza oyunu.",
         tech: "React / Router - Responsive",
         demo: "/projects/memorygame/index.html",
-        github: "https://github.com/onuresin/memorygame"
+        github: "https://github.com/onuresin/DevJobs-WebApp"
       },
       {
         title: "İngilizce Sözlük",
@@ -28,7 +28,7 @@ const projectCategories = [
         desc: "İngilizce kelimelerin okunuşlarını ve yazılışlarını öğreten uygulama.",
         tech: "React - Responsive",
         demo: "/projects/memorygame/index.html",
-        github: "https://github.com/onuresin/memorygame"
+        github: "https://github.com/onuresin/Dictionary-WEB-APP"
       },
       {
         title: "Memory Game",
@@ -44,7 +44,7 @@ const projectCategories = [
         desc: "4 Kategoriden oluşan, her kategoride 10 soru bulunan Front-End Soru-Cevap Uygulaması",
         tech: "React - Responsive",
         demo: "/projects/memorygame/index.html",
-        github: "https://github.com/onuresin/memorygame"
+        github: "https://github.com/onuresin/QuizApp"
       },
       {
         title: "Detaylı Yaş Hesaplayıcı",
@@ -52,7 +52,7 @@ const projectCategories = [
         desc: "İçinde bulunduğunuz tarihe göre yaşınızı gün, ay ve yıl olarak size hesaplar",
         tech: "React - Responsive",
         demo: "/projects/memorygame/index.html",
-        github: "https://github.com/onuresin/memorygame"
+        github: "https://github.com/onuresin/age-calculator"
       },
       {
         title: "Bülten Kaydı",
@@ -60,7 +60,7 @@ const projectCategories = [
         desc: "Basit bir bültene kayıt olma örneği. Doğru yazılmış bir mail adresi ile kayıt ekranına geçebildiğiniz bir örnek.",
         tech: "React - Responsive",
         demo: "/projects/memorygame/index.html",
-        github: "https://github.com/onuresin/memorygame"
+        github: "https://github.com/onuresin/newsletter-signup"
       },
       {
         title: "PhotoSnap",
@@ -68,7 +68,7 @@ const projectCategories = [
         desc: "PhotoSnap,ücretli bir uygulama. Her fotoğrafın içinde bir öykü gizlidir.Bu gizli öyküleri sizi takip edenlerle paylaşabileceğiniz bir platformdur.",
         tech: " Java Script - CSS Responsive",
         demo: "/projects/memorygame/index.html",
-        github: "https://github.com/onuresin/memorygame"
+        github: "https://github.com/onuresin/PhotoSnap"
       },
       {
         title: "VKE Hesaplama",
@@ -76,7 +76,7 @@ const projectCategories = [
         desc: "Vücut kitle indeksinizi hesaplayabileceğiniz bir araç.",
         tech: "React - Responsive",
         demo: "/projects/memorygame/index.html",
-        github: "https://github.com/onuresin/memorygame"
+        github: "https://github.com/onuresin/bmi-calculator.responsive-REACT"
       },
     ]
   },
@@ -123,7 +123,7 @@ export default function Projects() {
             <div className="project-links">
               {proj.demo && (
                 <a href={proj.demo} target="_blank" rel="noopener noreferrer">
-                  <img src={Attachment} alt="Attachment" />Live Demo
+                  <img src={Attachment} alt="Attachment" />Demo
                 </a>
               )}
               {proj.github && (
