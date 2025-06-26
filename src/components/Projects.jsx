@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Attachment from "../assets/attachment.svg";
 import GitHubBlack from "../assets/github-black.svg";
-// 1. Örnek veri
+
 const projectCategories = [
   {
     name: "Kişisel Projeler",
@@ -93,29 +93,63 @@ const projectCategories = [
     ]
   }
 ];
+const PROJECTS_PER_PAGE = 6;
 
 export default function Projects() {
-
   const [activeTab, setActiveTab] = useState(0);
-  const currentProjects = projectCategories[activeTab].projects;
+  const [visibleCount, setVisibleCount] = useState(PROJECTS_PER_PAGE);
+  const [animIndices, setAnimIndices] = useState([]);
+  const timeoutRef = useRef();
 
-  return (
+  const currentProjects = projectCategories[activeTab].projects;
+  const visibleProjects = currentProjects.slice(0, visibleCount);
+  const hasMore = visibleCount < currentProjects.length;
+
+  const handleTabClick = (idx) => {
+    setActiveTab(idx);
+    setVisibleCount(PROJECTS_PER_PAGE);
+    setAnimIndices([]);
+    if (timeoutRef.current) clearTimeout(timeoutRef.current);
+  }; // Tab değişince her şeyi resetle!
+
+  const handleLoadMore = () => {
+    const nextCount = Math.min(visibleCount + PROJECTS_PER_PAGE, currentProjects.length);
+    const newIndices = [];
+    for (let i = visibleCount; i < nextCount; i++) {
+      newIndices.push(i);
+    }
+    setVisibleCount(nextCount);
+    setAnimIndices(newIndices);
+
+
+    if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    timeoutRef.current = setTimeout(() => {
+      setAnimIndices([]);
+    }, 500);
+  }; // Animasyon class'ını 500ms sonra sil
+
+  useEffect(() => {
+    return () => clearTimeout(timeoutRef.current);
+  }, []);// Component unmount olunca timeout temizle
+
+return (
     <section className="projects-container">
-      {/* Slider / Tab menü */}
       <div className="projects-tabs">
         {projectCategories.map((cat, idx) => (
           <button
             key={cat.name}
             className={activeTab === idx ? "tab-btn active" : "tab-btn"}
-            onClick={() => setActiveTab(idx)} > {cat.name}
+            onClick={() => handleTabClick(idx)} > {cat.name}
           </button>
         ))}
       </div>
 
-      {/* Grid */}
       <div className="projects-grid">
-        {currentProjects.map((proj, i) => (
-          <div className="project-card" key={proj.title + i}>
+        {visibleProjects.map((proj, i) => (
+          <div
+            className={`project-card${animIndices.includes(i) ? " new-card" : ""}`}
+            key={proj.title + i}
+          >
             {proj.img && <img src={proj.img} alt={proj.title} />}
             <h4>{proj.title}</h4>
             <p>{proj.desc}</p>
@@ -128,13 +162,23 @@ export default function Projects() {
               )}
               {proj.github && (
                 <a href={proj.github} target="_blank" rel="noopener noreferrer">
-                  <img src={GitHubBlack} alt="" />
+                  <img src={GitHubBlack}/>
                 </a>
               )}
             </div>
           </div>
         ))}
       </div>
+
+      {hasMore && (
+        <div style={{ display: "flex", justifyContent: "center", marginTop: "32px" }}>
+          <button className="load-more-button" onClick={handleLoadMore}>
+            Daha Fazlasını Yükle
+          </button>
+        </div>
+      )}
+
+      <div className="experience-stick"></div>
     </section>
   );
 }

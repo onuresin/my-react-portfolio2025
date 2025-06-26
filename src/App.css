@@ -64,6 +64,7 @@ body {
 }
 .theme-toggle img{
   transition: filter 0.3s ease;
+  cursor: pointer;
 }
 .hamburger-menu {
   display: none;
@@ -74,6 +75,7 @@ body {
   font-weight: 300;
   line-height: normal;
   transition: color 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
 }
 /**/
 
@@ -100,6 +102,7 @@ body {
 
 .nav-link:hover::after {
   width: 100%;
+  background-color: #000000;
 }
 
 
@@ -422,6 +425,9 @@ body {
   gap: 28px;
 }
 .project-card {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.4s cubic-bezier(.41,.62,.49,1.33), transform 0.4s cubic-bezier(.41,.62,.49,1.33);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-radius: 18px;
@@ -433,8 +439,18 @@ body {
   gap: 30px;
   align-items: flex-start;
 }
+.project-card.new-card {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: cardFadeIn 0.45s cubic-bezier(.41,.62,.49,1.33) forwards;
+}
+
+@keyframes cardFadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
 .project-card:hover {
-  box-shadow: 0 18px 48px 0 rgba(60,68,130,0.19);
+  box-shadow: 0 18px 48px 0 var(--Purple);
   transform: scale(1.04);
 }
 .project-card img {
@@ -477,5 +493,27 @@ body {
 .project-links a img {
   width: 18px;
 }
-
+.load-more-button {
+  width: 25%;
+  margin: 0 auto; 
+  text-align: center;
+  padding: 12px 32px;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  border-radius: 16px;
+  background: var(--Purple);
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.11);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  color: var(--White);
+  cursor: pointer;
+  transition: box-shadow 0.25s, background 0.25s;
+  margin-top: 20px;
+}
+.load-more-button:hover {
+  background: rgba(255,255,255,0.35);
+  box-shadow: 0 18px 48px 0 var(--Purple);
+  color: var(--Purple);
+}
 
