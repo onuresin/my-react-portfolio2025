@@ -28,8 +28,8 @@ export default function Header () {
                     <a href="www.onuresin.net"><Logo /></a>
                 </div>
                 <div className="links-header">
-                    <a href="#" className="nav-link" id="projects"> Projeler</a>
-                    <a href="#" className="nav-link" id="resume">CV</a>
+                    <a href="#projects-page" className="nav-link" id="projects"> Projeler</a>
+                    <a href="/cv/onuresincv.pdf" download className="nav-link" id="resume">CV</a>
                     <a href="#" className="nav-link" id="contact">İletişim</a>
                     <button className="lang-button">EN</button>
                     <button className="theme-toggle" onClick={toggleTheme}>

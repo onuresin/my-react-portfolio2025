@@ -133,7 +133,7 @@ export default function Projects() {
   }, []);// Component unmount olunca timeout temizle
 
 return (
-    <section className="projects-container">
+    <section id="projects-page" className="projects-container">
       <div className="projects-tabs">
         {projectCategories.map((cat, idx) => (
           <button

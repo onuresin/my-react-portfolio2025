@@ -63,19 +63,11 @@ body.dark .hero-links a {
   color: #fff;
 }
 /*NAV LINKS*/
-.nav-link::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0%;
-  height: 2px;
-  background-color: var(--White); /* istediğin hover çizgi rengi */
-  transition: width 0.3s ease;
+body.dark .nav-link::after {
+  background-color: var(--White) !important;
 }
-
-.nav-link:hover::after {
-  width: 100%;
+body.dark .nav-link:hover::after {
+  background-color: var(--White) !important;
 }
 body.dark .experience-container {
   background-color: var(--HalfBlack);

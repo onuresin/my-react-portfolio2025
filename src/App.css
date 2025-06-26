@@ -13,6 +13,9 @@
   --Purple: #1F26B7;
   --BabyBlue: #6CACE4;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: var(--White);
   font-family: Inter;
@@ -96,13 +99,12 @@ body {
   bottom: 0;
   width: 0%;
   height: 2px;
-  background-color: #000000; /* istediğin hover çizgi rengi */
-  transition: width 0.3s ease;
+  background-color: #000;
+  transition: width 0.3s ease, background-color 0.3s;
 }
-
 .nav-link:hover::after {
   width: 100%;
-  background-color: #000000;
+  background-color: #000;
 }
 
 
