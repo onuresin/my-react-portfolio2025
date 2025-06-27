@@ -57,7 +57,7 @@ export default function Header ({ onContactClick }) {
                         <button className="theme-toggle" onClick={toggleTheme}>
                             <img src={darkMode ? sunIconWhite : sunIconBlack} alt="tema değiştir"/>
                         </button>
-                        {/* Kapat için özel ikon veya text */}
+                        
                         <button onClick={() => setMenuOpen(false)} className="close-menu-btn">✕</button>
                     </nav>
                 </div>
