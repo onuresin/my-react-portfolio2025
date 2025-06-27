@@ -110,3 +110,15 @@ body.dark .load-more-button:hover {
 body.dark .footer-inner {
   filter: invert(1);
 }
+body.dark .burger-line {
+  background: var(--White);
+}
+body.dark .side-menu {
+  background: rgba(22,22,26,0.98);
+}
+body.dark .side-menu {
+  background: var(--HalfBlack);
+}
+body.dark .slide-in a {
+  filter: invert(1);
+}

@@ -20,7 +20,12 @@ export default function Header ({ onContactClick }) {
         document.body.classList.toggle("dark", newDarkMode);
         localStorage.setItem("theme", newDarkMode ? "dark" : "light");
     };
-    
+
+    const [menuOpen, setMenuOpen] = useState(false);
+    useEffect(() => {
+  document.body.style.overflow = menuOpen ? "hidden" : "";
+  return () => { document.body.style.overflow = ""; }
+}, [menuOpen]);
     return (
         <div className="header-container">
             <div className="inner-Header">
@@ -36,10 +41,26 @@ export default function Header ({ onContactClick }) {
                         <img src={darkMode ? sunIconWhite : sunIconBlack} alt="tema değiştir"/>
                     </button>
                 </div>
-                <div className="hamburger-menu">
-
+                <div className={`hamburger-menu${menuOpen ? " open" : ""}`} onClick={() => setMenuOpen(true)}>
+                    <div className="burger-line"></div>
+                    <div className="burger-line"></div>
+                    <div className="burger-line"></div>
                 </div>
+                
             </div>
+            <div className={`side-menu-overlay ${menuOpen ? "active" : ""}`} onClick={() => setMenuOpen(false)}>
+                    <nav className={`side-menu ${menuOpen ? "slide-in" : "slide-out"}`} onClick={e => e.stopPropagation()}>
+                        <a href="#projects" onClick={() => setMenuOpen(false)}>Projeler</a>
+                        <a href="/cv/onuresincv.pdf" download onClick={() => setMenuOpen(false)}>CV</a>
+                        <a href="#" onClick={e => { e.preventDefault(); setMenuOpen(false); onContactClick(); }}>İletişim</a>
+                        <button className="theme-toggle" onClick={toggleTheme}>
+                        <img src={darkMode ? sunIconWhite : sunIconBlack} alt="tema değiştir"/>
+                        </button>
+                        {/* Kapat için özel ikon veya text */}
+                        <button onClick={() => setMenuOpen(false)} className="close-menu-btn">✕</button>
+                    </nav>
+                </div>
         </div>
+        
     )
 }

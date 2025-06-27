@@ -36,7 +36,7 @@ const projectCategories = [
         desc: "Bu projede react kullanılarak emojilerle hafıza oyunu kodlandı. Her oyun sonunda yeniden başlattığınızda farklı emojiler, farklı sırada olacak şekilde oynayabilirsiniz.",
         tech: "React - Responsive",
         demo: "/projects/memorygame/index.html",
-        github: "https://github.com/onuresin/memorygame"
+        github: "https://github.com/onuresin/MemoryGame-React-Responsive"
       },
       {
         title: "Front-End QuizApp (Türkçe)",
