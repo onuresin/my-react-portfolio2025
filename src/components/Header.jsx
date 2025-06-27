@@ -50,11 +50,12 @@ export default function Header ({ onContactClick }) {
             </div>
             <div className={`side-menu-overlay ${menuOpen ? "active" : ""}`} onClick={() => setMenuOpen(false)}>
                     <nav className={`side-menu ${menuOpen ? "slide-in" : "slide-out"}`} onClick={e => e.stopPropagation()}>
-                        <a href="#projects" onClick={() => setMenuOpen(false)}>Projeler</a>
-                        <a href="/cv/onuresincv.pdf" download onClick={() => setMenuOpen(false)}>CV</a>
-                        <a href="#" onClick={e => { e.preventDefault(); setMenuOpen(false); onContactClick(); }}>İletişim</a>
+                        <a href="#projects-page" className="nav-link" id="projects"> Projeler</a>
+                        <a href="/cv/onuresincv.pdf" download className="nav-link" id="resume">CV</a>
+                        <a  href="#" onClick={(e) => {e.preventDefault();onContactClick();}} className="nav-link" id="contact">İletişim</a>
+                        <button className="lang-button">EN</button>
                         <button className="theme-toggle" onClick={toggleTheme}>
-                        <img src={darkMode ? sunIconWhite : sunIconBlack} alt="tema değiştir"/>
+                            <img src={darkMode ? sunIconWhite : sunIconBlack} alt="tema değiştir"/>
                         </button>
                         {/* Kapat için özel ikon veya text */}
                         <button onClick={() => setMenuOpen(false)} className="close-menu-btn">✕</button>

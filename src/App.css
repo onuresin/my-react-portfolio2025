@@ -686,7 +686,7 @@ form input, form textarea {
   font-weight: 500;
   letter-spacing: 0.03em;
 }
-.side-menu .theme-toggle {
+.side-menu .theme-toggle, .side-menu .lang-button {
   background-color: transparent;
   border: none;
 }
