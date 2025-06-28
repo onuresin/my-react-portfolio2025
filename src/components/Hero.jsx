@@ -14,7 +14,11 @@ export default function Hero () {
                     <div className="info-2">
                         <h3>Onur Esin</h3>
                         <p>
-                            Lisans eğitimimi Balıkesir Üniversitesi'nde İktisat bölümünü okuyarak tamamladım. İş hayatına dış ticaret sektöründe hava ihracat departmanında çalışarak başladım. Devamında pazarlama sektörüne yöneldim. 2017-2023 yılları arasında bu sektörde edindiğim tecrübelerle birlikte kariyerimin farklı bir çizgide ilerlemesini istedim. Acun Medya Akademi'de ‘Gelişmiş Yazılım Uzmanlığı’ eğitimini aldım. Bu eğitimle birlikte HTML, CSS, Javascript ve React konularında güçlü bilgi ve beceri kazandım. Öğrenmeye olan tutkum, analitik düşünme yeteneğim, problem çözme kapasitem, ekip çalışmasına yatkınlığım ve yüksek iletişim becerilerimle kariyerime Frontend Developer olarak yeni bir sayfa açmayı ve yeni tecrübeler edinmeyi amaçlıyorum. Şuan Aka Koleji çatısı altında IT bölümünde çalışıyorum.
+                           Farklı sektörlerde edindiğim deneyimleri teknolojiyle birleştirerek kariyerime Frontend Developer olarak yeni bir yön vermeyi hedefliyorum. 
+                            Lisans eğitimimi Balıkesir Üniversitesi İktisat bölümünde tamamladıktan sonra dış ticaret ve pazarlama alanlarında çalıştım. 2017-2023 yılları arasında bu sektörlerde kazandığım deneyimler, teknolojiye olan ilgim ve üretme tutkum beni yazılıma yöneltti.
+                            Acun Medya Akademi’de aldığım Gelişmiş Yazılım Uzmanlığı eğitimi sayesinde HTML, CSS, JavaScript ve React konularında sağlam bir temel kazandım. Bu süreçte birçok proje geliştirerek öğrendiklerimi pratiğe döktüm. (Detaylı projelerime portfolyomdan ulaşabilirsiniz.)
+                            Şu anda Aka Koleji IT departmanında çalışıyor, aynı zamanda frontend alanında kendimi sürekli geliştiriyorum. Takım çalışmasına yatkınlığım, analitik düşünme becerim ve çözüm odaklı yaklaşımım sayesinde yeni projelerde aktif rol almaya hazırım.
+                            Amacım, kullanıcı deneyimini önemseyen, performans odaklı ve sürdürülebilir arayüzler geliştiren bir frontend geliştirici olarak sektörde kalıcı ve fark yaratan işler üretmek.
                         </p>
                     </div>
                 </div>

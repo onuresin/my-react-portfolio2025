@@ -1,62 +1,71 @@
 [
   {
-    "company": "Asav Uluslararası Nakliyat",
-    "location": "İstanbul",
-    "position": "Hava İhracat Satış Temsilcisi",
-    "date": "2016",
+    "company": "Aka Koleji",
+    "location": "Tekirdağ",
+    "position": "IT Bölümü",
+    "date": "2024 / Günümüz",
     "details": [
-      "Developing screens and UI components...",
-      "Fixing UI issues..."
+      "Okulun teknik altyapısını yöneterek bilgisayar ve yazılım kaynaklı sorunları hızlı ve etkin şekilde çözüyorum.",
+      "Öğrenci, veli ve personelin kullandığı okul bilgi sistemlerine teknik destek sağlıyor, kullanıcı deneyimini sürekli iyileştiriyorum."
+    ]
+  },
+   {
+    "company": "Acun Medya Akademi",
+    "location": "İstanbul",
+    "position": "Gelişmiş Yazılım Uzmanlığı Eğitimi",
+    "date": "2023",
+    "details": [
+      "HTML, CSS, JavaScript ve React konularında derinlemesine eğitim aldım.",
+      "Eğitim süresince bireysel ve ekip bazlı projelerde aktif görev aldım ve portfolyoma ekledim."
     ]
   },
   {
-    "company": "Vodafone VDF İletişim",
+    "company": "Esmart Amb. Dış Tic.",
     "location": "Tekirdağ",
-    "position": "Saha Satış Temsilcisi",
-    "date": "02.2017 - 12.2017",
+    "position": "Üretim / Pazarlama Sorumlusu",
+    "date": "2022 - 2023",
     "details": [
-      "Developing screens and UI components...",
-      "Fixing UI issues..."
-    ]
-  }
-  ,
-{
-    "company": "Selfbook",
-     "location": "Tekirdağ",
-    "position": "Saha Satış Temsilcisi",
-    "date": "05.2018 - 08.2018",
-    "details": [
-      "Developing screens and UI components...",
-      "Fixing UI issues..."
+      "Müşterilerle düzenli görüşmeler yaparak haftalık ve aylık siparişleri planladım ve takip ettim.",
+      "Üretim süreçlerini günlük olarak organize ederek, siparişlerin zamanında ve eksiksiz teslimatını sağladım."
     ]
   },
   {
     "company": "Bilim İlaç",
     "location": "İstanbul",
-    "position": "İlaç Mümmesili",
-    "date": "2021",
+    "position": "Tıbbi Mümessil",
+    "date": "07.2022 - 11.2022",
     "details": [
-      "Developing screens and UI components...",
-      "Fixing UI issues..."
+      "Bölgedeki doktorları düzenli ziyaret ederek, sorumlu olduğum ilaçların medikal sunumlarını gerçekleştirdim.",
+      "Ürünlerin reçetelendirme oranlarını artırmak için doktorlarla etkili iletişim kurdum."
     ]
   },
   {
-    "company": "Esmart Ambalaj Dış Tic. A.Ş.",
+    "company": "Red Fiber",
     "location": "Tekirdağ",
-    "position": "Fabrika Üretim Sorumlusu",
-    "date": "2022 - 2023",
+    "position": "Saha Satış Temsilcisi",
+    "date": "2018 - 2019",
     "details": [
-      "Developing screens and UI components...",
-      "Fixing UI issues..."
+      "Ekibimle birlikte günlük satış hedefleri belirleyerek sahada aktif satış gerçekleştirdim.",
+      "Müşterilerle birebir görüşerek şirketin internet altyapı hizmetlerini tanıttım ve satışlarını gerçekleştirdim."
     ]
-  },{
-    "company": "Aka Koleji",
+  },
+  {
+    "company": "VDF İletişim",
     "location": "Tekirdağ",
-    "position": "Bilgi İşlem Sorumlusu",
-    "date": "2024 - günümüz",
+    "position": "Saha Satış Temsilcisi",
+    "date": "2017 - 2018",
     "details": [
-      "Developing screens and UI components...",
-      "Fixing UI issues..."
+      "Potansiyel müşterilerle birebir görüşmeler gerçekleştirerek bölgedeki altyapı hizmetlerinin satışını yaptım."
+    ]
+  },
+  {
+    "company": "Asav Uluslararası Nakliyat",
+    "location": "İstanbul",
+    "position": "Hava İhracat Satış Sorumlusu",
+    "date": "2016 - 2017",
+    "details": [
+      "İhracat müşterileriyle günlük koordinasyon sağlayarak hava yolu firmalarıyla gönderi organizasyonlarını gerçekleştirdim.",
+      "Gönderilerin fiyatlandırılması, lojistik planlaması ve zamanında teslim edilmesinden sorumluydum."
     ]
   }
 ]
