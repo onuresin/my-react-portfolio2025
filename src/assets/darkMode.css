@@ -122,3 +122,6 @@ body.dark .side-menu {
 body.dark .slide-in a {
   filter: invert(1);
 }
+body.dark .close-menu-btn {
+  color: var(--White);
+}
