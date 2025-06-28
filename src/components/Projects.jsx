@@ -9,7 +9,7 @@ const projectCategories = [
       {
         title: "Stream Web App",
         img: "/myProjects/entertainment-web.png",
-        desc: "React Router ile geliştirilmiş. Google Firebase alt yapısı kullanılarak yapılmış. WebStream Projesi",
+        desc: "React Router ve Firebase kullanılarak geliştirilen, kullanıcı dostu bir video izleme platformu.",
         tech: "React / Router - Responsive - Firebase",
         demo: "https://streamapp.onuresin.net/",
         github: "https://github.com/onuresin/Stream-Web-App"
@@ -17,7 +17,7 @@ const projectCategories = [
       {
         title: "DevJobs Web App",
         img: "/myProjects/devJobs.png",
-        desc: "Kendi geliştirdiğim klasik hafıza oyunu.",
+        desc: "Frontend geliştiricilere yönelik ilanları filtreleyip listeleyen modern ve responsive iş ilanı uygulaması.",
         tech: "React / Router - Responsive",
         demo: "/projects/memorygame/index.html",
         github: "https://github.com/onuresin/DevJobs-WebApp"
@@ -25,7 +25,7 @@ const projectCategories = [
       {
         title: "İngilizce Sözlük",
         img: "/myProjects/dictionary.png",
-        desc: "İngilizce kelimelerin okunuşlarını ve yazılışlarını öğreten uygulama.",
+        desc: "İngilizce kelimelerin doğru telaffuzlarını ve anlamlarını öğrenmenize yardımcı olan pratik web uygulaması.",
         tech: "React - Responsive",
         demo: "/projects/memorygame/index.html",
         github: "https://github.com/onuresin/Dictionary-WEB-APP"
@@ -33,7 +33,7 @@ const projectCategories = [
       {
         title: "Memory Game",
         img: "/myProjects/memoryGame.png",
-        desc: "Bu projede react kullanılarak emojilerle hafıza oyunu kodlandı. Her oyun sonunda yeniden başlattığınızda farklı emojiler, farklı sırada olacak şekilde oynayabilirsiniz.",
+        desc: "React ile geliştirilen, her oyunda farklı emojilerle hafızayı geliştirmeyi amaçlayan eğlenceli hafıza oyunu.",
         tech: "React - Responsive",
         demo: "/projects/memorygame/index.html",
         github: "https://github.com/onuresin/MemoryGame-React-Responsive"
@@ -41,7 +41,7 @@ const projectCategories = [
       {
         title: "Front-End QuizApp (Türkçe)",
         img: "/myProjects/quizApp.png",
-        desc: "4 Kategoriden oluşan, her kategoride 10 soru bulunan Front-End Soru-Cevap Uygulaması",
+        desc: "Frontend bilgilerinizi test edebileceğiniz 4 kategori ve toplam 40 sorudan oluşan interaktif quiz uygulaması.",
         tech: "React - Responsive",
         demo: "/projects/memorygame/index.html",
         github: "https://github.com/onuresin/QuizApp"
@@ -49,7 +49,7 @@ const projectCategories = [
       {
         title: "Detaylı Yaş Hesaplayıcı",
         img: "/myProjects/age-calculator.png",
-        desc: "İçinde bulunduğunuz tarihe göre yaşınızı gün, ay ve yıl olarak size hesaplar",
+        desc: "Güncel tarihe göre yaşınızı gün, ay ve yıl olarak hızlıca hesaplayan basit ve kullanışlı bir araç.",
         tech: "React - Responsive",
         demo: "/projects/memorygame/index.html",
         github: "https://github.com/onuresin/age-calculator"
@@ -57,7 +57,7 @@ const projectCategories = [
       {
         title: "Bülten Kaydı",
         img: "/myProjects/havadis.png",
-        desc: "Basit bir bültene kayıt olma örneği. Doğru yazılmış bir mail adresi ile kayıt ekranına geçebildiğiniz bir örnek.",
+        desc: "Kullanıcıların doğru e-posta adresi girerek bülten kaydı yapabileceği basit ve temiz arayüzlü bir örnek çalışma.",
         tech: "React - Responsive",
         demo: "/projects/memorygame/index.html",
         github: "https://github.com/onuresin/newsletter-signup"
@@ -65,7 +65,7 @@ const projectCategories = [
       {
         title: "PhotoSnap",
         img: "/myProjects/photosnap.png",
-        desc: "PhotoSnap,ücretli bir uygulama. Her fotoğrafın içinde bir öykü gizlidir.Bu gizli öyküleri sizi takip edenlerle paylaşabileceğiniz bir platformdur.",
+        desc: "Fotoğraflarınızın ardındaki hikâyeleri paylaşabileceğiniz modern, responsive ve kullanıcı odaklı bir fotoğraf paylaşım platformu.",
         tech: " Java Script - CSS Responsive",
         demo: "/projects/memorygame/index.html",
         github: "https://github.com/onuresin/PhotoSnap"
@@ -73,7 +73,7 @@ const projectCategories = [
       {
         title: "VKE Hesaplama",
         img: "/myProjects/BMI_Calculate.png",
-        desc: "Vücut kitle indeksinizi hesaplayabileceğiniz bir araç.",
+        desc: "Sağlık durumunuzu değerlendirebileceğiniz, vücut kitle indeksinizi (BMI) hızlıca hesaplayan kullanıcı dostu uygulama.",
         tech: "React - Responsive",
         demo: "/projects/memorygame/index.html",
         github: "https://github.com/onuresin/bmi-calculator.responsive-REACT"
