@@ -1,0 +1,122 @@
+[
+  {
+    "name": { "tr": "Kişisel Projeler", "en": "Personal Projects" },
+    "projects": [
+      {
+        "title": { "tr": "Stream Web App", "en": "Stream Web App" },
+        "img": "/myProjects/entertainment-web.png",
+        "desc": {
+          "tr": "React Router ve Firebase kullanılarak geliştirilen, kullanıcı dostu bir video izleme platformu.",
+          "en": "A user-friendly video streaming platform developed with React Router and Firebase."
+        },
+        "tech": { "tr": "React / Router - Responsive - Firebase", "en": "React / Router - Responsive - Firebase" },
+        "demo": "https://streamapp.onuresin.net/",
+        "github": "https://github.com/onuresin/Stream-Web-App"
+      },
+      {
+        "title": { "tr": "DevJobs Web App", "en": "DevJobs Web App" },
+        "img": "/myProjects/devJobs.png",
+        "desc": {
+          "tr": "Frontend geliştiricilere yönelik ilanları filtreleyip listeleyen modern ve responsive iş ilanı uygulaması.",
+          "en": "A modern, responsive job listing app for frontend developers, with filtering and listing features."
+        },
+        "tech": { "tr": "React / Router - Responsive", "en": "React / Router - Responsive" },
+        "demo": "/projects/memorygame/index.html",
+        "github": "https://github.com/onuresin/DevJobs-WebApp"
+      },
+      {
+        "title": { "tr": "İngilizce Sözlük", "en": "English Dictionary" },
+        "img": "/myProjects/dictionary.png",
+        "desc": {
+          "tr": "İngilizce kelimelerin doğru telaffuzlarını ve anlamlarını öğrenmenize yardımcı olan pratik web uygulaması.",
+          "en": "A practical web app that helps you learn correct pronunciation and meanings of English words."
+        },
+        "tech": { "tr": "React - Responsive", "en": "React - Responsive" },
+        "demo": "/projects/memorygame/index.html",
+        "github": "https://github.com/onuresin/Dictionary-WEB-APP"
+      },
+      {
+        "title": { "tr": "Memory Game", "en": "Memory Game" },
+        "img": "/myProjects/memoryGame.png",
+        "desc": {
+          "tr": "React ile geliştirilen, her oyunda farklı emojilerle hafızayı geliştirmeyi amaçlayan eğlenceli hafıza oyunu.",
+          "en": "A fun memory game developed with React, aiming to improve memory with different emojis in each game."
+        },
+        "tech": { "tr": "React - Responsive", "en": "React - Responsive" },
+        "demo": "/projects/memorygame/index.html",
+        "github": "https://github.com/onuresin/MemoryGame-React-Responsive"
+      },
+      {
+        "title": { "tr": "Front-End QuizApp (Türkçe)", "en": "Front-End QuizApp (Turkish)" },
+        "img": "/myProjects/quizApp.png",
+        "desc": {
+          "tr": "Frontend bilgilerinizi test edebileceğiniz 4 kategori ve toplam 40 sorudan oluşan interaktif quiz uygulaması.",
+          "en": "An interactive quiz app with 4 categories and a total of 40 questions to test your frontend knowledge."
+        },
+        "tech": { "tr": "React - Responsive", "en": "React - Responsive" },
+        "demo": "/projects/memorygame/index.html",
+        "github": "https://github.com/onuresin/QuizApp"
+      },
+      {
+        "title": { "tr": "Detaylı Yaş Hesaplayıcı", "en": "Detailed Age Calculator" },
+        "img": "/myProjects/age-calculator.png",
+        "desc": {
+          "tr": "Güncel tarihe göre yaşınızı gün, ay ve yıl olarak hızlıca hesaplayan basit ve kullanışlı bir araç.",
+          "en": "A simple and handy tool that quickly calculates your age in days, months, and years based on the current date."
+        },
+        "tech": { "tr": "React - Responsive", "en": "React - Responsive" },
+        "demo": "/projects/memorygame/index.html",
+        "github": "https://github.com/onuresin/age-calculator"
+      },
+      {
+        "title": { "tr": "Bülten Kaydı", "en": "Newsletter Signup" },
+        "img": "/myProjects/havadis.png",
+        "desc": {
+          "tr": "Kullanıcıların doğru e-posta adresi girerek bülten kaydı yapabileceği basit ve temiz arayüzlü bir örnek çalışma.",
+          "en": "A simple and clean example allowing users to subscribe to a newsletter with their valid email address."
+        },
+        "tech": { "tr": "React - Responsive", "en": "React - Responsive" },
+        "demo": "/projects/memorygame/index.html",
+        "github": "https://github.com/onuresin/newsletter-signup"
+      },
+      {
+        "title": { "tr": "PhotoSnap", "en": "PhotoSnap" },
+        "img": "/myProjects/photosnap.png",
+        "desc": {
+          "tr": "Fotoğraflarınızın ardındaki hikâyeleri paylaşabileceğiniz modern, responsive ve kullanıcı odaklı bir fotoğraf paylaşım platformu.",
+          "en": "A modern, responsive, and user-oriented photo sharing platform where you can share the stories behind your photos."
+        },
+        "tech": { "tr": "Java Script - CSS Responsive", "en": "Java Script - CSS Responsive" },
+        "demo": "/projects/memorygame/index.html",
+        "github": "https://github.com/onuresin/PhotoSnap"
+      },
+      {
+        "title": { "tr": "VKE Hesaplama", "en": "BMI Calculator" },
+        "img": "/myProjects/BMI_Calculate.png",
+        "desc": {
+          "tr": "Sağlık durumunuzu değerlendirebileceğiniz, vücut kitle indeksinizi (BMI) hızlıca hesaplayan kullanıcı dostu uygulama.",
+          "en": "A user-friendly app to quickly calculate your body mass index (BMI) for health assessment."
+        },
+        "tech": { "tr": "React - Responsive", "en": "React - Responsive" },
+        "demo": "/projects/memorygame/index.html",
+        "github": "https://github.com/onuresin/bmi-calculator.responsive-REACT"
+      }
+    ]
+  },
+  {
+    "name": { "tr": "Ücretli Projeler", "en": "Client Projects" },
+    "projects": [
+      {
+        "title": { "tr": "Müşteri Projesi 1", "en": "Client Project 1" },
+        "img": "/projects/client1/cover.png",
+        "desc": {
+          "tr": "Bir müşteri için hazırladığım özel web uygulaması.",
+          "en": "A custom web application developed for a client."
+        },
+        "tech": { "tr": "", "en": "" },
+        "demo": "/projects/client1/index.html",
+        "github": ""
+      }
+    ]
+  }
+]

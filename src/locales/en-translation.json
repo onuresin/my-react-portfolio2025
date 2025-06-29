@@ -1,0 +1,44 @@
+{
+  "header": {
+    "projects": "Projects",
+    "cv": "Resume",
+    "contact": "Contact",
+    "langBtn": "TR",
+    "themeAlt": "change theme",
+    "menuClose": "Close"
+  },
+  "hero": {
+    "hi": "Hi, I'm",
+    "name": "Onur Esin",
+    "desc": "My goal is to combine my experience from various sectors with technology and shape my career as a Frontend Developer.\nI graduated from Balıkesir University with a degree in Economics, then worked in foreign trade and marketing. My experiences from 2017-2023 in these sectors, along with my passion for technology and creation, led me to software development.\nWith the Advanced Software Specialist training at Acun Medya Academy, I built a solid foundation in HTML, CSS, JavaScript, and React. I reinforced my skills by developing many projects during this period (see my portfolio for details).\nCurrently, I work in the IT department at Aka College and continuously improve myself in frontend development. Thanks to my teamwork skills, analytical thinking, and solution-oriented approach, I'm ready to take an active role in new projects.\nMy aim is to become a frontend developer who values user experience, focuses on performance, and creates sustainable, impactful interfaces.",
+    "linkedin": "Linked In",
+    "upwork": "Upwork",
+    "github": "Github"
+  },
+"contact": {
+  "title": "Contact",
+  "name": "Name",
+  "email": "Email",
+  "message": "Message",
+  "send": "Send",
+  "sending": "Sending...",
+  "success": "Your message has been received. I will get back to you as soon as possible ☺️"
+},
+  "experience": {
+    "title": "EXPERIENCE",
+    "companyLabel": "Company",
+    "positionLabel": "Position",
+    "dateLabel": "Date",
+    "locationLabel": "Location",
+    "detailLabel": "Description"
+  },
+  "projects": {
+    "personal": "Personal Projects",
+    "client": "Client Projects",
+    "loadMore": "Load More",
+    "tech": "Technologies",
+    "seeLive": "Live",
+    "seeCode": "Code",
+    "demo": "Demo"
+  }
+}

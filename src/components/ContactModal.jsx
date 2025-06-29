@@ -1,6 +1,8 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function ContactModal({ open, onClose }) {
+  const { t } = useTranslation();
   const [sent, setSent] = useState(false);
   const [loading, setLoading] = useState(false);
 
@@ -24,26 +26,26 @@ export default function ContactModal({ open, onClose }) {
     setSent(true);
     form.reset();
   };
-    
-    return (
-        <div className="modal-overlay" onClick={onClose}>
+
+  return (
+    <div className="modal-overlay" onClick={onClose}>
       <div className="modal-glass" onClick={e => e.stopPropagation()}>
         <button className="close-btn" onClick={onClose}>✕</button>
         {sent ? (
-          <div className="form-success">Mesajınız tarafıma başarı ile ulaşmıştır. En kısa sürede dönüş yapacağım ☺️</div>
+          <div className="form-success">{t("contact.success")}</div>
         ) : (
           <form onSubmit={handleSubmit}>
-            <h2>İletişim</h2>
+            <h2>{t("contact.title")}</h2>
             <label>
-              Adın
+              {t("contact.name")}
               <input name="name" required />
             </label>
             <label>
-              E-posta
+              {t("contact.email")}
               <input name="email" type="email" required />
             </label>
             <label>
-              Mesaj
+              {t("contact.message")}
               <textarea name="message" rows={5} required />
             </label>
             <button
@@ -51,7 +53,7 @@ export default function ContactModal({ open, onClose }) {
               className="form-send-btn"
               disabled={loading}
             >
-              {loading ? "Gönderiliyor..." : "Gönder"}
+              {loading ? t("contact.sending") : t("contact.send")}
             </button>
           </form>
         )}

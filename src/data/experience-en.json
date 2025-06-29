@@ -1,0 +1,71 @@
+[
+  {
+    "company": "Aka College",
+    "location": "Tekirdağ",
+    "position": "IT Department",
+    "date": "2024 / Present",
+    "details": [
+      "I manage the school's technical infrastructure, solving computer and software-related issues quickly and efficiently.",
+      "I provide technical support for school information systems used by students, parents, and staff, continuously improving user experience."
+    ]
+  },
+  {
+    "company": "Acun Medya Academy",
+    "location": "Istanbul",
+    "position": "Advanced Software Specialist Training",
+    "date": "2023",
+    "details": [
+      "I received in-depth training in HTML, CSS, JavaScript, and React.",
+      "During the training, I actively participated in both individual and team projects and added them to my portfolio."
+    ]
+  },
+  {
+    "company": "Esmart Amb. Foreign Trade",
+    "location": "Tekirdağ",
+    "position": "Production / Marketing Manager",
+    "date": "2022 - 2023",
+    "details": [
+      "I regularly communicated with customers to plan and follow up on weekly and monthly orders.",
+      "I organized daily production processes to ensure timely and complete delivery of orders."
+    ]
+  },
+  {
+    "company": "Bilim Pharmaceuticals",
+    "location": "Istanbul",
+    "position": "Medical Representative",
+    "date": "07.2022 - 11.2022",
+    "details": [
+      "I regularly visited doctors in the region and conducted medical presentations of the pharmaceuticals I was responsible for.",
+      "I established effective communication with doctors to increase the prescription rates of the products."
+    ]
+  },
+  {
+    "company": "Red Fiber",
+    "location": "Tekirdağ",
+    "position": "Field Sales Representative",
+    "date": "2018 - 2019",
+    "details": [
+      "I set daily sales targets with my team and actively performed field sales.",
+      "I introduced and sold the company's internet infrastructure services through one-on-one meetings with customers."
+    ]
+  },
+  {
+    "company": "VDF Communication",
+    "location": "Tekirdağ",
+    "position": "Field Sales Representative",
+    "date": "2017 - 2018",
+    "details": [
+      "I conducted one-on-one meetings with potential customers and sold infrastructure services in the region."
+    ]
+  },
+  {
+    "company": "Asav International Transport",
+    "location": "Istanbul",
+    "position": "Air Export Sales Specialist",
+    "date": "2016 - 2017",
+    "details": [
+      "I provided daily coordination with export customers and organized shipments with airline companies.",
+      "I was responsible for the pricing, logistics planning, and timely delivery of the shipments."
+    ]
+  }
+]
