@@ -102,10 +102,7 @@ body {
   background-color: #000;
   transition: width 0.3s ease, background-color 0.3s;
 }
-.nav-link:hover::after {
-  width: 100%;
-  background-color: #000;
-}
+
 /*HAMBURGER MENU*/
 .hamburger-menu {
   display: none;
@@ -226,11 +223,7 @@ body {
     box-shadow: 0 0 0px 0px transparent;
 }
 
-.linkedIn:hover {
-  background-position: 100% 50%;  /* Hover'da sağa kayacak */
-  box-shadow: 0 0 16px 2px #6e44ff;
-  border-color: #8ffff9;
-}
+
 .up-work {
   position: relative;
   border: 2px solid transparent;
@@ -245,11 +238,6 @@ body {
     transition: box-shadow 0.4s, border-color 0.3s;
     box-shadow: 0 0 0px 0px transparent; 
 }
-.up-work:hover {
-  background-position: 100% 50%;  /* Hover'da sağa kayacak */
-  box-shadow: 0 0 16px 2px #6e44ff;
-  border-color: #f5b4e7;
-}
 .gitHub {
   position: relative;
   border: 2px solid transparent;
@@ -262,11 +250,6 @@ body {
   animation: borderMove 4s linear infinite;
   transition: box-shadow 0.4s, border-color 0.3s;
   box-shadow: 0 0 0px 0px transparent;
-}
-.gitHub:hover {
-  background-position: 100% 50%;
-  box-shadow: 0 0 16px 2px #6e44ff;
-  border-color: #6e44ff;
 }
 /*EXPERIENCE SECTION*/
 .experience-container {
@@ -452,10 +435,7 @@ body {
   from { opacity: 0; transform: translateY(30px); }
   to   { opacity: 1; transform: translateY(0); }
 }
-.project-card:hover {
-  box-shadow: 0 18px 48px 0 var(--Purple);
-  transform: scale(1.04);
-}
+
 .project-card img {
   width: 100%;
   object-fit: cover;
@@ -514,11 +494,7 @@ body {
   transition: box-shadow 0.25s, background 0.25s;
   margin-top: 20px;
 }
-.load-more-button:hover {
-  background: rgba(255,255,255,0.35);
-  box-shadow: 0 5px 48px 0 var(--Purple);
-  color: var(--Purple);
-}
+
 
 /*FOOTER SECTION DESKTOP*/
 footer {
@@ -591,9 +567,7 @@ footer {
   cursor: pointer;
   transition: color 0.2s;
 }
-.close-btn:hover {
-  color: var(--LavaRed);
-}
+
 
 .form-send-btn {
   width: 100%;
@@ -955,3 +929,42 @@ form input, form textarea {
   .project-links a { font-size: 13px; gap: 4px; }
 }
 
+/* SADECE DESKTOPTA HOVER EFEKTİ */
+@media (min-width: 1100px) and (hover: hover) and (pointer: fine) {
+
+  .nav-link:hover::after {
+    width: 100%;
+    background-color: #000;
+  }
+  .linkedIn:hover {
+    background-position: 100% 50%;
+    box-shadow: 0 0 16px 2px #6e44ff;
+    border-color: #8ffff9;
+  }
+  .up-work:hover {
+    background-position: 100% 50%;
+    box-shadow: 0 0 16px 2px #6e44ff;
+    border-color: #f5b4e7;
+  }
+  .gitHub:hover {
+    background-position: 100% 50%;
+    box-shadow: 0 0 16px 2px #6e44ff;
+    border-color: #6e44ff;
+  }
+  .project-card:hover {
+    box-shadow: 0 18px 48px 0 var(--Purple);
+    transform: scale(1.04);
+  }
+  .load-more-button:hover {
+    background: rgba(255,255,255,0.35);
+    box-shadow: 0 5px 48px 0 var(--Purple);
+    color: var(--Purple);
+  }
+  .close-btn:hover {
+    color: var(--LavaRed);
+  }
+  .footer-link:hover {
+    color: #6e44ff;
+    text-decoration: underline;
+  }
+}

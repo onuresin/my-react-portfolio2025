@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import Attachment from "../assets/attachment.svg";
 import GitHubBlack from "../assets/github-black.svg";
-import projectsData from "../data/projects.json"; // DİKKAT! Doğru json dosyasını import et
+import projectsData from "../data/projects.json";
 import { useTranslation } from "react-i18next";
 
 const PROJECTS_PER_PAGE = 6;

@@ -32,7 +32,7 @@
           "en": "A practical web app that helps you learn correct pronunciation and meanings of English words."
         },
         "tech": { "tr": "React - Responsive", "en": "React - Responsive" },
-        "demo": "/projects/memorygame/index.html",
+        "demo": "/projects/DictionaryApp/index.html",
         "github": "https://github.com/onuresin/Dictionary-WEB-APP"
       },
       {
@@ -54,7 +54,7 @@
           "en": "An interactive quiz app with 4 categories and a total of 40 questions to test your frontend knowledge."
         },
         "tech": { "tr": "React - Responsive", "en": "React - Responsive" },
-        "demo": "/projects/memorygame/index.html",
+        "demo": "/projects/QuizApp/index.html",
         "github": "https://github.com/onuresin/QuizApp"
       },
       {
@@ -76,7 +76,7 @@
           "en": "A simple and clean example allowing users to subscribe to a newsletter with their valid email address."
         },
         "tech": { "tr": "React - Responsive", "en": "React - Responsive" },
-        "demo": "/projects/memorygame/index.html",
+        "demo": "/projects/Newslatter - Havadis/index.html",
         "github": "https://github.com/onuresin/newsletter-signup"
       },
       {
