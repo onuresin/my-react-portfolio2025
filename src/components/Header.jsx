@@ -38,7 +38,15 @@ export default function Header({ onContactClick }) {
         </div>
         <div className="links-header">
           <a href="#projects-page" className="nav-link" id="projects">{t("header.projects")}</a>
-          <a href="/cv/onuresincv.pdf" download className="nav-link" id="resume">{t("header.cv")}</a>
+          <select className="nav-link cv-select" id="resume" onChange={e => {
+            const val = e.target.value;
+            if (val) window.open(val, "_blank");
+            e.target.selectedIndex = 0;
+          }}>
+              <option value="">{t("header.cv")}</option>
+              <option value="/cv/onuresin-cv-tr.pdf">TR CV</option>
+              <option value="/cv/onuresin-resume-en.pdf">EN CV</option>
+          </select>
           <a href="#" onClick={e => { e.preventDefault(); onContactClick(); }} className="nav-link" id="contact">{t("header.contact")}</a>
           <button className="lang-button" onClick={() => i18n.changeLanguage(i18n.language === "tr" ? "en" : "tr")}>
              {t("header.langBtn")}
@@ -74,5 +82,6 @@ export default function Header({ onContactClick }) {
         </nav>
       </div>
     </div>
+    
   );
 }

@@ -102,6 +102,16 @@ body {
   background-color: #000;
   transition: width 0.3s ease, background-color 0.3s;
 }
+/*CV DOWNLOAD*/
+.cv-select {
+  border: none;
+  background-color: var(--White);
+  color:var(--Black05);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: normal;
+  cursor: pointer;
+}
 
 /*HAMBURGER MENU*/
 .hamburger-menu {
