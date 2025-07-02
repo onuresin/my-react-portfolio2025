@@ -73,12 +73,14 @@ body {
   cursor: pointer;
 }
 .lang-button {
+  color: var(--HalfBlack);
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
   transition: color 0.3s ease, background-color 0.3s ease;
   cursor: pointer;
+  text-decoration: none;
 }
 /**/
 
@@ -105,13 +107,13 @@ body {
 /*CV DOWNLOAD*/
 .cv-select {
   border: none;
-  background-color: var(--White);
+  background-color: transparent;
   color:var(--Black05);
   font-size: 16px;
   font-weight: 300;
   line-height: normal;
   cursor: pointer;
-  transition: background 0.13s ease;
+  transition: width 0.3s ease, background-color 0.13s;
 }
 
 /*HAMBURGER MENU*/

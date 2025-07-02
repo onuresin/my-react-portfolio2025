@@ -66,9 +66,15 @@ export default function Header({ onContactClick }) {
           <a href="#projects-page" className="nav-link" id="projects" onClick={() => setMenuOpen(false)}>
             {t("header.projects")}
           </a>
-          <a href="/cv/onuresincv.pdf" download className="nav-link" id="resume" onClick={() => setMenuOpen(false)}>
-            {t("header.cv")}
-          </a>
+          <select className="nav-link cv-select" id="resume" onChange={e => {
+            const val = e.target.value;
+            if (val) window.open(val, "_blank");
+            e.target.selectedIndex = 0;
+          }}>
+              <option value="" disabled hidden>{t("header.cv")}</option>
+              <option className="active-opt" value="/cv/onuresin-cv-tr.pdf">TR CV</option>
+              <option className="active-opt" value="/cv/onuresin-resume-en.pdf">EN CV</option>
+          </select>
           <a href="#" onClick={e => { e.preventDefault(); onContactClick(); setMenuOpen(false); }} className="nav-link" id="contact"> 
             {t("header.contact")}
           </a>

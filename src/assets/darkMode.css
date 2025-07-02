@@ -126,6 +126,11 @@ body.dark .close-menu-btn {
   color: var(--White);
 }
 body.dark .cv-select {
-  background-color: var(--HalfBlack);
-  color: var(--White);
+  background-color: none;
+  color: #fff;
+  border: none;
+}
+body.dark .cv-select option {
+  background: var(--Black05);
+  color: var(--BabyBlue);
 }
