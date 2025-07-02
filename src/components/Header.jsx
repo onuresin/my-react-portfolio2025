@@ -43,7 +43,7 @@ export default function Header({ onContactClick }) {
             if (val) window.open(val, "_blank");
             e.target.selectedIndex = 0;
           }}>
-              <option value="">{t("header.cv")}</option>
+              <option value="" disabled hidden>{t("header.cv")}</option>
               <option value="/cv/onuresin-cv-tr.pdf">TR CV</option>
               <option value="/cv/onuresin-resume-en.pdf">EN CV</option>
           </select>
