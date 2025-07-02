@@ -15,14 +15,16 @@
   --BabyBlue: #6CACE4;
   --LavaRed: #d40707;
 }
+body {
+  background-color: var(--White) !important;
+  font-family: Inter;
+  transition: background-color 0.4s ease, color 0.4s ease;
+  min-height: 100vh;
+}
 html {
   scroll-behavior: smooth;
 }
-body {
-  background-color: var(--White);
-  font-family: Inter;
-  transition: background-color 0.4s ease, color 0.4s ease;
-}
+
 /******************************************************************************************************/
 .main-container {
   width: 100%;
@@ -689,6 +691,9 @@ form input, form textarea {
 /*RESPONSIVE*/
 /*1100px*/
 @media (min-width:1024px) and (max-width: 1279px) {
+  body {
+  min-height: 100dvh;
+  }
   .inner-Header{
     width: 74%;
     max-width: 98vw;
@@ -803,6 +808,9 @@ form input, form textarea {
   }
 }
 @media (max-width: 767px) {
+  body {
+  min-height: 100dvh;
+  }
 .inner-Header {
   width: 99%;
 }

@@ -8,8 +8,8 @@
   --DarkPurples: #1F26B7;
   --BabyBlue: #6CACE4;
 }
-body.dark {
-  background-color: var(--HalfBlack);
+body.dark, html.dark {
+  background-color: var(--HalfBlack) !important;
   color: var(--White);
 }
 body.dark .links-header a {
