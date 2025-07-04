@@ -65,7 +65,7 @@
           "en": "A simple and handy tool that quickly calculates your age in days, months, and years based on the current date."
         },
         "tech": { "tr": "React - Responsive", "en": "React - Responsive" },
-        "demo": "/projects/memorygame/index.html",
+        "demo": "/projects/Age-Calculator/index.html",
         "github": "https://github.com/onuresin/age-calculator"
       },
       {
