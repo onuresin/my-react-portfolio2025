@@ -87,7 +87,7 @@
           "en": "A modern, responsive, and user-oriented photo sharing platform where you can share the stories behind your photos."
         },
         "tech": { "tr": "Java Script - CSS Responsive", "en": "Java Script - CSS Responsive" },
-        "demo": "/projects/memorygame/index.html",
+        "demo": "/projects/PhotoSnap/index.html",
         "github": "https://github.com/onuresin/PhotoSnap"
       },
       {
