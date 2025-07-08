@@ -23,7 +23,7 @@ export default function Hero () {
                     <a href="https://www.linkedin.com/in/onuresin/" target="_blank" rel="noopener noreferrer" className="social-links linkedIn">
                         <img src={LinkedInBlack} alt="LinkedIn" />{t("hero.linkedin")}
                     </a>
-                    <a href="https://www.upwork.com/freelancers/~018c6bf340cb01d442?viewMode=1" target="_blank" rel="noopener noreferrer" className="social-links up-work">
+                    <a href="https://www.upwork.com/freelancers/~018c6bf340cb01d442?mp_source=share" target="_blank" rel="noopener noreferrer" className="social-links up-work">
                         <img src={UpWorkBlack} alt="Upwork" />{t("hero.upwork")}
                     </a>
                     <a href="https://github.com/onuresin" target="_blank" rel="noopener noreferrer" className="social-links gitHub">
